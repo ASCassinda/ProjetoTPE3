@@ -1,0 +1,60 @@
+body{
+    background: url(../image/j2.jpg); 
+}
+.navbar-static-top{
+    background: transparent;
+    margin-top: 3%;
+}
+
+.voltar, i{
+    color: #00c6d7
+}
+.navbar-header{
+    padding: 2%; 
+}
+
+.container-fluid{
+ 
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  position: relative;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+ 
+  
+}
+
+.container{
+      background-color: rgba(225,225,225,.5);
+    width: 25%;
+    margin-top: 10%;
+    z-index: 99999;
+    border-radius: 9px;
+}
+
+/*Cadastro*/
+
+.cadastro{
+    width: 45%;
+    margin-left: 8%;
+}
+
+/* validacao a sms de campos */
+   
+   #msgErroNome,#msgErroSenha1,#msgErroSenha2,#msgErroEmail,#msgErroTelemovel,#msgErroLogin{
+    font-family:arial;
+    color:white;
+    font-size: 15px;
+    background: #d2322d;
+    border-radius:5px;
+    padding:10px;
+    margin-top:10px;
+    
+    
+   
+}
+

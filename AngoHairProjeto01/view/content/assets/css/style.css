@@ -1,0 +1,275 @@
+
+body {
+          font-family:kozuka;
+    font-size:14px;
+}
+#BemVindoCliente{
+    height: 100vh;
+    background-color: #823f3f;
+    color:#fff;
+}
+#UserPrincipal{
+    display: none;
+}
+#testo1{
+    font-family: kozuka;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 10%;
+}
+#testo2{
+    font-family: kozuka;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 5%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:kozuka;
+}
+
+
+.btnAlterar{
+     background-color: #fff;
+     color:#000;
+     cursor: pointer;
+     transition: .8s;
+     width: 25%;
+     height: 40px;
+     padding-top:10px;
+     text-align: center;
+     border-radius: 3px;
+     text-decoration: none;
+}
+.btnAlterar:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .8s;
+    text-decoration: none;
+    
+}
+
+
+.space-free {
+    height:100%;
+}
+
+.g-pad-bottom {
+    padding-bottom:60px;
+}
+.for-full-back {
+     /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=90);
+
+  /* Netscape */
+  -moz-opacity: 0.9;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.9;
+
+  /* Good browsers */
+  opacity: 0.9;
+}
+
+section {
+    padding-top:20px;
+}
+
+ /*=======================================
+    SIDE MENUS STYLES
+==================================================*/
+
+#cbp-spmenu-s1 {
+    overflow:auto;
+    background-color:#823f3f;
+    font-family: kozuka;
+    
+}
+.navbar-right{
+     
+}
+#menuSecundario{
+  padding-left: 40%;
+  color:#fff;
+}
+#menuSecundario:hover{
+  background-color: transparent;
+  color:#fff;
+}
+.menu_e{
+    color:#fff;
+}
+#cbp-spmenu-s1>h3 {
+    text-align:right;
+}
+#icon-left {
+    text-align:right;
+}
+
+#showLeftPush {
+    position:fixed;
+    z-index:9999;
+    left:7px;
+    top:20px;
+    color: #fff;
+}
+
+#cbp-spmenu-s2 {
+     overflow:auto;
+}
+ #cbp-spmenu-s2 > h3 {
+     text-align:left;
+    }
+#icon-right {
+    text-align:right;
+}
+
+/*=======================================
+    COMPONENTS.CSS ADJUSTMENTS STYLES
+==================================================*/
+
+.cbp-spmenu a:focus,.cbp-spmenu a:hover {
+    text-decoration:none;
+}
+
+.cbp-spmenu a>i {
+    margin-right:25px;
+}
+.cbp-spmenu h3 {
+font-size: 0.5em;
+font-weight: 900;
+color:#fff;
+padding:80px;
+background-color: #823f3f;
+    
+
+}
+
+.cbp-spmenu a {
+display: block;
+color: #fff;
+font-weight: 900;
+background-color: #823f3f;
+
+
+}
+
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+
+
+#home {
+    padding-top:120px;
+    padding-bottom:145px;
+    color:#fff;
+}
+.head-main {
+    font-size:50px ;
+    font-weight:900;
+    background-color: #823f3f;
+    
+}
+.head-sub-main {
+    font-size:30px ;
+    font-weight:600;
+    padding:5px 20px 10px 20px;
+}
+.head-last {
+    font-size:20px ;
+    font-weight:300;
+    padding:5px 20px 20px 20px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+border-radius: 0px; 
+
+}
+
+
+.color-bg-one {
+    background-color:#823f3f;
+    color:#fff;
+}
+
+
+body{
+background: url(../../image/bb10_1.jpg)fixed;
+background-repeat: no-repeat;
+
+}
+.logoTipo{
+     margin-left: 13%;
+     color:#fff;
+}
+
+.list-unstyled{
+    border:2px solid #fff;
+    margin-left: 13%;
+}
+.col-md-9{
+     margin-left: 13%;
+     margin-top: 5%;
+     
+         
+}
+#thumb{
+     background-color: #823f3f;
+     color: #000;
+     margin-left: 10%;
+}
+
+
+.imagem{
+    padding: 4%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+
+
+
+.fa-circle{
+    color:#1dc116;
+}
+
+
+
+#myModal{
+    background:url("../../image/j1.jpg")fixed;
+}
+
+.modal-dialog {
+    
+     margin-left:6%;
+    border-radius: 4px;
+    width:35%;
+    margin-top: 5%;
+    background-color: #fff;
+   
+    background-color: rgba(225,225,225,.3);
+}
+.modal-content{
+    background: #fff;
+    background-color: rgba(225,225,225,.3);
+}
+.form-control{
+    background-color: #fff;
+     background-color: rgba(225,225,225,.3);
+}
+
+.modal-header{
+    font-family: kozuka;
+    font-size:2em;
+}
+/*sessao perfil cliente*/
+
+
+#perfilCliente{
+    margin:0 auto;
+    
+    height:100vh;
+}

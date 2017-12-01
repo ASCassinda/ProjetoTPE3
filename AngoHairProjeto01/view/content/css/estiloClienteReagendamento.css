@@ -1,0 +1,241 @@
+.textoAdmin{
+    background-color: #00c6d7;
+    padding: 1%;
+    width: 100%;
+    margin-bottom: 10%;
+    font-family: kozuka;
+
+}
+.textoCliente{
+    font-family: kozuka;
+}
+.fa-circle{
+    color:green;
+
+}
+.removeIcon{
+    color: red;
+}
+h4{
+    font-size: 20px;
+}
+.navEdit{
+    color: #ccc;
+    
+    font-family: kozuka;
+}
+.navEdit:hover{
+    color: #000;
+    
+    font-family: kozuka;
+}
+.navEditIcon{
+    color: #ccc;
+    
+    font-family: kozuka;
+}
+.navEditIcon:hover{
+    color:#00c6d7;
+}
+span{
+    color: #fff;
+}
+.container-fluid{
+    background: url('../image/none.jpg')fixed;
+    height: 100%;
+
+}
+
+#tabela{
+    /*width:100%; */
+    height: 53%;
+    overflow: auto;
+}
+.imagem{
+    padding: 4%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.iconesAdmin{
+    margin-bottom: 8%;
+}
+
+.imagemFundo{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: kozuka;
+    border-bottom: 3px solid #fff;
+}
+.col-md-3{
+    height: 103%;
+    background-color: rgba(0,0,0,.4);
+}
+.col-md-9{
+    padding: 4%;
+    opacity: 0.7;
+    height: 103%;
+
+
+}
+
+.iconsair{
+    color:#ccc; 
+
+}
+.iconesAdmin{
+    color:#ccc;   
+}
+.nomebd{
+    font-family: kozuka;
+    color:#ccc;
+}
+.nav{
+    color:#ccc;
+}
+
+.form-control{
+    background: transparent;
+   
+
+    
+}
+body{
+    
+    overflow: hidden;
+}
+.col-md-8{
+    margin-top: 5%;
+    margin-left: 14%;
+
+}
+.thumbnail{
+    background-color: #00c6d7;
+    padding: 8%;
+    margin-left: 10%;
+    font-family: kozuka;
+}
+.logoTipo{
+    border-bottom: 3px solid #fff;
+    margin-bottom: 3%;
+    color:#fff;
+    font-family: kozuka;
+}
+.cadastrotitulo{
+    border-bottom: 3px solid #fff;
+}
+a, p{
+    font-size: 1em; 
+    color: #000;
+
+}
+img{
+    border: 3px solid #fff;
+    border-radius: 50%; 
+}
+.Tbnomebd{
+    color: #000;
+    background-color: #ccc;
+    
+    font-family: kozuka;
+}
+.from-group{
+  
+    font-family: kozuka;  
+}
+
+/*area menu*/
+#menu ul{
+	text-align:center;
+	
+	background-color:#ccc;
+	display: block;
+	margin:0;
+	padding:0;
+	border:2px solid red;
+}
+#menu li{
+	
+	border:2px solid yellow;
+	
+	
+	list-style:none;
+	display: block;
+	
+	height: 72.3px;
+	border-bottom: 2px solid #fff;
+	color:#000;
+	font-family: helvetica;
+	font-size: 20px;
+	padding: 20px;
+	text-align:center;
+	 
+}
+#menu li:hover{
+	background: #00c6d7;
+	
+	transition: .9s;
+	
+}
+#menu li {
+	-webkit-transition: all .9s esase;
+	-moz-transition: all .9s ease;
+	-ms-transition: all .9s ease;
+	transition:all .9s ease;
+}
+h1{
+	font-family: helvetica;
+	color: #8fbc8f;
+}
+
+ #msgErroNome,#msgErroSenha1,#msgErroSenha2,#msgErroEmail,#msgErroTelemovel,#msgErroLogin,#msgErroHorario{
+    font-family:arial;
+    color:white;
+    font-size: 15px;
+    background: #d2322d;
+    border-radius:5px;
+    padding:10px;
+    margin-top:10px;
+    
+    
+   
+}
+
+
+#myModal{
+    background:url("../image/j2.jpg")fixed;
+}
+#myModalAterarProfissional{
+    background:url("../image/j3.jpg")fixed;
+}
+
+.modal-dialog {
+    border-radius: 4px;
+    width:45%;
+    margin-top: 8%;
+    margin-left: 20%;
+    background-color: #fff;
+    background-color: rgba(225,225,225,.4);
+}
+
+.modal-content{
+   
+    background: #fff;
+    background-color: rgba(225,225,225,.4);
+}
+.form-control{
+    background-color: #fff;
+     background-color: rgba(225,225,225,.4);
+}
+
+.modal-header{
+    font-family: kozuka;
+    font-size:2em;
+}
+
+
+
+.table{ 
+    height: 100vh;
+    overflow: auto;
+}

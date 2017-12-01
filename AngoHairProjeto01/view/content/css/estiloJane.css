@@ -1,0 +1,533 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+	
+}
+.section-style{
+	
+	
+}
+.pattern{
+	background:rgba(0,0,0,.5) url(../image/pattern.png);
+	padding-top:35.2%;
+	width:100%;
+}
+.t-modal .modal-content{
+	
+}
+@-webkit-keyframes slide{
+	
+	0%, 30%{
+		background-image:url(../image/full22.jpg);
+	}
+	35%, 65%{
+		background-image:url(../image/st1.jpg);
+	}
+	70%, 100%{
+		background-image:url(../image/stelvia.jpg);
+	}
+
+}
+.section-style{
+	-webkit-animation:slide 9s ease infinite alternate;
+	height:100vh;
+	transition:.8s oscilate;
+	
+	
+	
+}
+
+/*=======================================
+    PRICE SECTION STYLES
+==================================================*/
+#price-sec {
+    padding-top: 80px;
+     padding-bottom: 80px;
+	 height:100vh;
+	 background-color:red;
+}
+
+.plan {
+    background: #eef1f3;
+    padding: 0 0 35px 0;
+    margin: 30px 0px;
+    list-style: none;
+    text-align: center;
+  
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+         -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+}
+
+.plan:hover {
+    -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.plan li {
+    padding: 15px 0px;
+    color: #434749;
+	text-align:center;
+    border-top: 1px dashed #000;
+}
+.Letf-plant{
+	margin-left:150px;
+}
+.plan li.plan-head {
+   padding: 15px 0px;
+background-color: #0d77b6;
+color: #FFFFFF;
+line-height: 20px;
+font-size: 20px;
+font-weight: 600;
+border: none;
+   }
+
+
+
+.c-b {
+    background-color:#B60D43!important;
+}
+.c-v {
+    background-color: #01AA30!important;
+}
+.c-a {
+    background-color: #818181!important;
+}
+
+
+
+/****************************************************************
+                        formatação da galeria
+****************************************************************/
+.main-content{
+	background-color:#000;
+	height:100vh;
+}
+
+.feature { 
+ text-align: center;
+ margin-bottom: 50px; }
+.feature .feature-title { 
+font-size: 30px; 
+font-size: 1.875rem;
+ text-transform: uppercase; 
+ font-weight: 300; 
+ font-family: kozuka;
+ background-image: -webkit-linear-gradient(90deg, #cc7250, #f7d0c2);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ margin-bottom: 20px; }
+
+.page { padding: 50px 0; }
+.page h3 { color: white; }
+
+.page p {
+	margin-bottom: 30px; 
+	color:#fff;}
+
+/*=======================================
+    SERVICE SECTION STYLES
+==================================================*/
+#services-inner {
+    padding-top:50px;
+    padding-bottom:40px;
+}
+
+.service-div {
+	width: 100%;
+	min-height: 100px;
+	background-color: #F2F4F6;
+	box-shadow: none;
+	border: 0;
+    padding:20px;
+    margin-bottom:30px;
+}
+.service-div > i {
+    color:rgba(252, 64, 101, 1);
+}
+
+.bg_video{
+	border:1px solid #000;
+	position:fixed;
+	right:0;
+	bottom:0;
+	z-index:-1000;
+	min-width:100%;
+	min-height:100%;
+	width:auto;
+	height:auto;
+	background: url(content/image/page3-img1.jpg)no-repeat;
+	background-size: cover;
+}
+
+.nav li .menu{
+    color: #000;
+    font-size: 14pt;
+}
+.nav li .menu:hover{
+    color: #eee;
+    background-color: transparent;
+}
+.nav > li > .menu:focus {
+  background-color: transparent;
+  color: #666;
+  outline: none;
+}
+.nav li.active > .menu{
+    color: #006cd7;
+}
+#menuPrncipal{
+    margin-left: 20%;
+    float: left;
+}
+#menuSecundario{
+    float: right;
+}
+.navbar-brand {
+  color: #00c6d7;
+  font-weight: 600;
+  font-size: 24px;
+}
+.menuPrincipal, .menuSecundario{
+    background: #00c6d7;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/****************************************************************
+                        formatação do inicio
+****************************************************************/
+
+#page-top{
+	
+	background-attachment:inherit;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-position: center;
+	color: #000;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+}
+
+#page-top h1{
+	margin-top:10px;
+    font-size: 40px;
+    color: #000;
+}
+#page-top h3{
+    font-size: 1.2em;
+}
+#page-top hr{
+    width: 250px;
+}
+#page-top .btn {
+  background: transparent;
+  border: 4px solid #ffffff;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  margin-top: 40px;
+  margin-right: 16px;
+  transition: all 0.4s ease-in-out;
+}
+#page-top .btn:hover {
+  background: #00c6d7;
+  border-color: transparent;
+}
+#page-top .btn-danger {
+  background: #00c6d7;
+  border-color: transparent;
+  margin-left: 1%;
+}
+#page-top .btn-danger:hover {
+	border: 4px solid #fff;
+  	border-radius: 0;
+	/*background: transparent;*/
+  	color: #ffffff;
+}
+
+
+/****************************************************************
+                        formatação do serviços
+****************************************************************/
+
+.servicos{
+	font:12px/19px Arial, Helvetica, sans-serif;
+	position:relative;
+	min-width:1036px; 
+    background: url(../image/salon.jpg)fixed;
+	  
+		background-color:#000;
+        -webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+     
+}
+
+/* Global Structure---------------------------------------- */
+.main {	
+	
+    margin:0 auto;
+    width:940px;
+    position:relative;
+}
+
+.container_12 {
+	position:relative;
+       
+}
+/*----- txt,links,linhas,titles -----*/
+	
+h1, h5{
+	color:#fff;
+	position:relative;
+	line-height:1em;
+	font-weight:normal
+}
+h1 {
+    font-size:1000px;
+    line-height:34px;
+}
+
+h5 {
+	font-size:18px;
+	line-height:24px;
+	color:#00c6d7;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding:14px 0 10px;
+	
+}
+
+a {
+	text-decoration:none;
+	cursor:pointer
+}
+
+a:hover {
+	text-decoration:underline
+}
+
+.wrapper {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+
+p {color:#fff;
+	padding-bottom:19px;
+}
+
+
+
+.aligncenter {
+	text-align:center
+}
+
+
+.block {
+position:relative;
+z-index:100}
+
+
+/**********bgstretcher*************/
+
+.bgstretcher {
+	background: black;
+	overflow: hidden;
+	width: 100%;
+	position: fixed !important;
+	z-index: 0;
+	top: 0;
+	left: 0;
+}
+
+
+/********************** Content style ************************/
+section#content {
+	position:relative;
+	z-index:10;
+	padding:92px 0;
+	
+}
+.img-rounded img{
+	  border-radius:13px;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;}
+
+
+.img-indent{margin:39px 0 35px}
+
+
+
+/********************** links  & buttons ************************/
+
+.button {
+	display:inline-block;
+	font-family: 'Noto Sans', sans-serif;
+	color:#fff;
+	font-size:17px;
+	line-height:1.2em;
+	background:#00c6d7;
+	padding:6px 12px 7px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:15px;
+	margin-top:2px
+}
+.button:hover {	
+	background:#000;
+	text-decoration:none;
+}
+
+/*  Lista */
+.list {
+	padding:0 0 27px
+}
+.list li {
+	margin-bottom:2px;
+	line-height:16px;
+}
+.list li a {
+	color:#fff;
+	font-size:14px;	
+	padding:0 0 0 18px;	
+}
+.list li a:hover {
+	color:#00c6d7;
+	font-size:15px;	
+	text-decoration: none;
+	
+}
+
+
+/******************** Footer ******************/
+footer {
+	padding:9px 0;
+	background:#000
+}
+
+.privacy {
+	color:#fcf9f9;
+	font-size:12px;
+	line-height:20px;	
+}
+.privacy span{color:#747373;margin:0 4px}
+.privacy strong{color:#747373;font-weight:normal;}
+.privacy strong a{color:#747373}
+.privacy a {
+	font-size:12px;
+	color:#fcf9f9;	
+	display:inline-block;
+}
+
+/****************************************************************
+                        formatação do contacto
+****************************************************************/
+
+#contactos {
+    background: url(../image/pattern_bg.png)fixed ;
+    color: #fff;
+}
+#contactos header h1 { color: #fff;}
+#contactos p, #contactos a  {
+	
+    line-height: 1.5em;
+    color: #fff;
+}
+#contactos form .form-group {
+	margin-top: 30px;
+	
+	
+}
+
+
+#contactos form input.form-control,
+#contactos form button.form-control,
+#contactos form textarea.form-control ,
+#contactos form select.form-control {
+	border-bottom: 3px solid #fff;
+	color: #fff;
+	border-bottom-width:transparent;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-top-color:transparent;
+}
+#contactos form input.form-control:focus,
+#contactos form button.form-control:focus,
+#contactos form textarea.form-control:focus { 
+	border-bottom-color:#275267;
+}
+#contactos form textarea.form-control {
+	min-height: 120px;
+	background-color:transparent;
+}
+#contactos form .input-group-addon {
+	border-bottom: 3px solid #fff;
+	background-color:transparent;
+	border:transparent;
+}
+#contactos form .input-group-addon i { 
+	color: #fff;
+	
+	
+
+}
+#contactos form input.form-control{
+	background-color:transparent;
+	
+}
+#contactos form button.form-control{
+	background-color:#00c6d7;
+	color:#fff;
+}
+#contactos .social {
+    margin: 0px auto 40px auto;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+#contactos .social li {
+    margin-left: 0;
+    width: 25%;
+}
+#contactos .social a {
+    margin: 50px auto 4px auto;
+    background-color: #fff;
+    border-radius: 50px;
+    padding-top: 15px;
+    font-size: 40px;
+    line-height: 40px;
+    transition: .5s;
+    display: block;
+    height: 70px;
+    color: #fff;
+    width: 70px;
+}
+#contactos .social a:hover {
+    transform: rotate(360deg);
+    color: #223741;
+}
+#contactos .social .social-facebook { background: #4a6fb5;}
+#contactos .social .social-twitter { background: #28a9e0;}
+#contactos .social .social-youtube { background: #f86d70;}
+#contactos .social .social-instagram { background: #cab9a9;}

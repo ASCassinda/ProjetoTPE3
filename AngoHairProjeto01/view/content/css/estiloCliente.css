@@ -1,0 +1,169 @@
+.textoAdmin{
+    
+    padding: 1%;
+    width: 100%;
+    margin-bottom: 10%;
+    
+    font-family: kozuka;
+
+}
+.textoCliente{
+    font-family: kozuka;
+}
+.fa-circle{
+    color:green;
+
+}
+h4{
+    font-size: 20px;
+}
+.navEdit{
+    color: #ccc;
+    
+    font-family: kozuka;
+}
+.navEdit:hover{
+    color: #000;
+    background-color: red;
+}
+span{
+    color: #fff;
+}
+.container-fluid{
+    background: url('../image/none.jpg');
+}
+
+.imagem{
+    padding: 4%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.iconesAdmin{
+    margin-bottom: 8%;
+}
+
+
+.col-md-3{
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    background-color: #823f3f;
+}
+
+
+.iconsair{
+    color:#ccc; 
+
+}
+.iconesAdmin{
+    color:#ccc;   
+}
+.nomebd{
+    font-family: kozuka;
+    color:#ccc;
+}
+.nav{
+    color:#ccc;
+}
+.modal-body{
+    
+    background-color: #ccc;
+    
+}
+
+
+.modal-dialog{
+   
+    width: 40%;
+    margin-left: 40%;
+}
+.form-control{
+    background: transparent;
+   
+
+    
+}
+.col-md-8{
+    margin-top: 5%;
+    margin-left: 14%;
+
+}
+
+.thumbnail{
+    background-color: #823f3f;
+    padding: 8%;
+    margin-left: 10%;
+    font-family: kozuka;
+}
+.logoTipo{
+    border-bottom: 3px solid #fff;
+    margin-bottom: 3%;
+    color:#fff;
+    font-family: kozuka;
+}
+.cadastrotitulo{
+    border-bottom: 3px solid #fff;
+}
+a, p{
+    font-size: 17px; 
+    color: #000;
+
+}
+img{
+    border: 3px solid #fff;
+    border-radius: 50%; 
+}
+.Tbnomebd{
+    color: #000;
+    background-color: #ccc;
+    
+    font-family: kozuka;
+}
+.from-group{
+  
+    font-family: kozuka;  
+}
+
+/*area menu*/
+#menu ul{
+	text-align:center;
+	
+	background-color:#823f3f;
+	display: block;
+	margin:0;
+	padding:0;
+	border:2px solid red;
+}
+#menu li{
+	
+	border:2px solid yellow;
+	
+	
+	list-style:none;
+	display: block;
+	
+	height: 72.3px;
+	border-bottom: 2px solid #fff;
+	color:#000;
+	font-family: helvetica;
+	font-size: 20px;
+	padding: 20px;
+	text-align:center;
+	 
+}
+#menu li:hover{
+	background: #823f3f;
+	
+	transition: .9s;
+	
+}
+#menu li {
+	-webkit-transition: all .9s esase;
+	-moz-transition: all .9s ease;
+	-ms-transition: all .9s ease;
+	transition:all .9s ease;
+}
+h1{
+	font-family: helvetica;
+	color: #8fbc8f;
+}

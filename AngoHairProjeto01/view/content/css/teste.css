@@ -1,0 +1,15 @@
+body{
+	background-image:url('../image/full22_1.jpg');
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+}
+
+.wrap{
+	background-color:#000;
+	margin-top:40px;
+	
+}
+.nt p{
+ color:#fff;
+}

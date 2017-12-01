@@ -1,0 +1,12 @@
+
+body{
+    background: url('../image/j1.jpg');
+}
+
+
+.jumbotron{
+    width: 40%;
+    height: 80%;
+    margin-top:6%;
+    background-color: rgba(225,225,225,.4);
+}

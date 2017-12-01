@@ -1,0 +1,12 @@
+
+/* validacao a sms de campos */
+
+   #msgErroNome,#msgErroSenha1,#msgErroSenha2,#msgErroEmail,#msgErroTelemovel,#msgErroLogin{
+    font-family:arial;
+    color:white;
+    font-size: 15px;
+    background: #d2322d;
+    border-radius:5px;
+    padding:10px;
+    margin-top:10px;
+}
