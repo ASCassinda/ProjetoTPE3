@@ -31,6 +31,8 @@
 
                     </button>
                     <a class="navbar-brand" href="#" >AngoHairs</a>
+                    <a class="navbar-brand" href="#" >TPE3</a>
+                    <a class="navbar-brand" href="#" >TPE3/Control de versões usando o Git</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="but1">
